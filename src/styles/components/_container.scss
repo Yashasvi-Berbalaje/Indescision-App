@@ -1,0 +1,12 @@
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+
+@media (max-width:45rem){
+    .container > .header__title,.header__subtitle{
+        text-align: center;
+    }
+
+}
